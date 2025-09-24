@@ -1,6 +1,6 @@
 #!/bin/bash
-PERSON1=sindhu
-PERSON2=nehwal
+PERSON1=$1
+PERSON2=$2
 
 #match convo btw rohith and kohli
 
