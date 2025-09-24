@@ -1,31 +1,31 @@
 #!/bin/bash
 
-#the conversation btw P1 and P2, after a long time the were met
+#the conversation btw $PERSON1 and $PERSON2, after a long time the were met
 
-P1=$1
-P2=$2
+$PERSON1=$1
+$PERSON2=$2
 
-echo "P1: Hey P2! Long time no see."
-echo "P2: P1! Wow, it’s been ages."
-echo "P1: How have you been?"
-echo "P2: Doing well, busy with work. You?"
-echo "P1: Same here, work and family keep me occupied."
-echo "P2: Do you remember our college trips?"
-echo "P1: Of course! Those were some of the best days."
-echo "P2: We should plan a reunion soon."
-echo "P1: Definitely, let’s make it happen this year."
-echo "P2: Great! I’ll start checking with others."
-echo "P1: P2, can you give your current phone number?"
+echo "$PERSON1: Hey $PERSON2! Long time no see."
+echo "$PERSON2: $PERSON1! Wow, it’s been ages."
+echo "$PERSON1: How have you been?"
+echo "$PERSON2: Doing well, busy with work. You?"
+echo "$PERSON1: Same here, work and family keep me occupied."
+echo "$PERSON2: Do you remember our college trips?"
+echo "$PERSON1: Of course! Those were some of the best days."
+echo "$PERSON2: We should plan a reunion soon."
+echo "$PERSON1: Definitely, let’s make it happen this year."
+echo "$PERSON2: Great! I’ll start checking with others."
+echo "$PERSON1: $PERSON2, can you give your current phone number?"
 
-read -s P2_PHONE_NUMBER 
+read -s $PERSON2_PHONE_NUMBER 
 
-echo "P2 here is my phone number: $P2_PHONE_NUMBER"
+echo "$PERSON2 here is my phone number: $$PERSON2_PHONE_NUMBER"
 
-echo "P2: P1, can you also provide your current phone number?"
+echo "$PERSON2: $PERSON1, can you also provide your current phone number?"
 
-read -s P1_PHONE_NUMBER
+read -s $PERSON1_PHONE_NUMBER
 
-echo "P1: Sure P2, here is my current phone number $P1_PHONE_NUMBER" 
+echo "$PERSON1: Sure $PERSON2, here is my current phone number $$PERSON1_PHONE_NUMBER" 
 
-echo "P1: okay bye P2"
-echo "P2: Bye P1, See you soon"
+echo "$PERSON1: okay bye $PERSON2"
+echo "$PERSON2: Bye $PERSON1, See you soon"
