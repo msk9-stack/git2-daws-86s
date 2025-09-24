@@ -1,6 +1,6 @@
 #!/bin/bash
-PERSON1=sehwag
-PERSON2=gangooli
+PERSON1=sindhu
+PERSON2=nehwal
 
 #match convo btw rohith and kohli
 
