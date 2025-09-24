@@ -19,13 +19,13 @@ echo "$PERSON1: $PERSON2, can you give your current phone number?"
 
 read -s PERSON2_PHONE_NUMBER 
 
-echo "$PERSON2 here is my phone number: $PERSON2_PHONE_NUMBER"
+echo "$PERSON2 here is my phone number: $PHONE_NUMBER"
 
 echo "$PERSON2: $PERSON1, can you also provide your current phone number?"
 
 read -s PERSON1_PHONE_NUMBER
 
-echo "$PERSON1: Sure $PERSON2, here is my current phone number $PERSON1_PHONE_NUMBER" 
+echo "$PERSON1: Sure $PERSON2, here is my current phone number $PHONE_NUMBER" 
 
 echo "$PERSON1: okay bye $PERSON2"
 echo "$PERSON2: Bye $PERSON1, See you soon"
