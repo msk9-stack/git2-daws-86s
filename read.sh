@@ -16,6 +16,9 @@ echo "Susheel: We should plan a reunion soon."
 echo "Amit: Definitely, let’s make it happen this year."
 echo "Susheel: Great! I’ll start checking with others."
 
+
 read -s "Amit:canyou give your updated PHONE_NUMBER" #phone number
+
+echo "please enter your phone number"
 
 echo "Shusheel here is my $PHONE_NUMBER"
