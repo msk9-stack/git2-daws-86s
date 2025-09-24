@@ -17,21 +17,15 @@ echo "Amit: Definitely, let’s make it happen this year."
 echo "Susheel: Great! I’ll start checking with others."
 echo "Amit: Shusheel, can you give your current phone number?"
 
-echo "Shusheel: here is my phone number"
-
-echo "Susheel_PHONE_NUMBER"
-
 read -s Susheel_PHONE_NUMBER 
 
 echo "Shusheel here is my phone number: $Susheel_PHONE_NUMBER"
 
 echo "Susheel: Amit, can you also provide your current phone number?"
 
-echo "Amit: Sure Susheel, here is my current phone number $Amit_PHONE_NUMBER"
+read -s Amit_PHONE_NUMBER
 
-echo "Amit_PHONE_NUMBER"
-
-read -s Amit_PHONE_NUMBER 
+echo "Amit: Sure Susheel, here is my current phone number $Amit_PHONE_NUMBER" 
 
 echo "Amit: okay bye Susheel"
 echo "Susheel: Bye Amit, See you soon"
