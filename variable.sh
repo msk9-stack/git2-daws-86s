@@ -10,3 +10,8 @@ echo "$PERSON1::i am super exicted, bcz its ind vs pak match"
 echo "$PERSON2::hmm, you like ind vs pak match always"
 echo "$PERSON1::yes $PERSON2, you know already"
 echo "$PERSON2::ye i know"
+echo "can you give your door lock number"
+
+read -s DOOR_LOCK #Door lock is a variable
+
+echo "here is my door lock number: $DOOR_LOCK"
