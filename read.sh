@@ -2,8 +2,8 @@
 
 #the conversation btw $PERSON1 and $PERSON2, after a long time the were met
 
-$PERSON1=$1
-$PERSON2=$2
+PERSON1=$1
+PERSON2=$2
 
 echo "$PERSON1: Hey $PERSON2! Long time no see."
 echo "$PERSON2: $PERSON1! Wow, it’s been ages."
